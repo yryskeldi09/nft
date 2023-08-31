@@ -1,0 +1,40 @@
+.footer {
+  background: var(--background-secondary, #3B3B3B);
+  &__row {
+    display: flex;
+    padding: 40px 0 40px;
+    column-gap: 110px;
+  }
+  &__title {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+  }
+  &__svg {
+    display: flex;
+    column-gap: 12px;
+  }
+  &__text {
+    color: #CCC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 20px;
+  }
+  &__svg4 {
+    margin-top: 15px;
+  }
+  hr {
+    background: #858584;
+  }
+  &__minitext {
+    color: #CCC;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 110%;
+    padding: 20px 0 40px;
+  }
+}

@@ -1,0 +1,52 @@
+.join {
+  padding: 40px 0;
+  &__card {
+    border-radius: 20px;
+    background: #3B3B3B;
+  }
+  &__row {
+    display: flex;
+    column-gap: 80px;
+    padding: 60px;
+  }
+  &__title {
+    color: var(--white, #FFF);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+    padding: 10px 0 10px;
+  }
+  &__text {
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+  &__nav {
+    width: 275px;
+    height: 60px;
+    padding: 16px 0 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: var(--text, #FFF);
+    border: none;
+    position: absolute;
+  }
+  &__nav:hover {
+    border: none;
+  }
+  &__but {
+    position: relative;
+    padding: 23px 50px 23px 50px;
+    border-radius: 20px;
+    margin-left: 240px;
+    border: none;
+    background: #A259FF;
+    color: #FFFFFF;
+  }
+}

@@ -1,0 +1,99 @@
+.nft {
+  background: url("../assets/magic-nft1.png") center/cover no-repeat;
+  position: relative;
+  padding: 360px 0 60px;
+  &__gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(162, 89, 255, 0.00) 0%, #A259FF 100%);
+  }
+  &__row {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    column-gap: 292px;
+  }
+  &__card {
+    background: #3B3B3B;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 20px 10px;
+    width: 150px;
+    height: 45px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 30px;
+  }
+  &__avatar {
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    column-gap: 12px;
+    font-weight: 400;
+    line-height: 140%;
+    position: relative;
+    z-index: 2;
+  }
+  &__title {
+    color: #FFF;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+  }
+  &__btn {
+    border-radius: 20px;
+    background: #FFFFFF;
+    color: black;
+    padding: 22px 50px 22px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+
+  }
+  &__btn:hover {
+    background: #3B3B3B;
+    border: 1px solid white;
+    color: #FFFFFF;
+    font-size: 17px;
+    transition: 0.5s;
+  }
+  &__time {
+    color: var(--text, #FFF);
+    font-family: Space Mono,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 110%;
+    padding-bottom: 10px;
+  }
+  &__number {
+    color: var(--text, #FFF);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+  }
+  &__two {
+    color: var(--text, #FFF);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+  &__right-card {
+    display: flex;
+    column-gap: 10px;
+  }
+  &__right {
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);
+  }
+  &__nav {
+    padding: 30px;
+  }
+}

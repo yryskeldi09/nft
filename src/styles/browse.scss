@@ -1,0 +1,30 @@
+.browse {
+  padding: 80px 0;
+  &__title {
+    color: var(--white, #FFF);
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+  }
+  &__row {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 30px;
+  }
+  &__card {
+    width: 50%;
+    height: 90%;
+    background: #3B3B3B;
+    border-radius: 20px;
+  }
+  &__text {
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    padding: 20px 30px 25px;
+  }
+}

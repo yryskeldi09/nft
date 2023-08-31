@@ -1,0 +1,33 @@
+.header {
+  padding: 20px 0;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+  }
+  &__link {
+    color: #fff;
+    font-weight: 600;
+  }
+  &__btn {
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+
+  }
+  &__btn:hover {
+    background: #2b2b2b;
+    border: 1px solid var(--call-to-action, #A259FF);
+    font-size: 16px;
+    transition: 0.5s;
+  }
+}
